@@ -129,8 +129,8 @@ body {
           }
         }
         .owl-carousel {
-          padding-left: 40px !important;
-          padding-right: 40px !important;
+          padding: 40px 20px !important;
+          
           .owl-wrapper-outer {
             position: relative;
             z-index: 2;
@@ -197,6 +197,7 @@ body {
           li {
             list-style: none;
             text-align: center;
+            border: 1px solid #eee;
             img {
               max-width: 100%;
               max-height: 60px;
@@ -2226,8 +2227,7 @@ header.header-main {
                }
              }
              .owl-carousel {
-               padding-left: 40px !important;
-               padding-right: 40px !important;
+               padding: 40px 20px !important;
                .owl-wrapper-outer {
                  position: relative;
                  z-index: 2;
