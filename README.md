@@ -1,1 +1,1 @@
-# Theologyx. Hawthorn compatible Open edX theme
+# Hawthorn compatible Open edX theme
