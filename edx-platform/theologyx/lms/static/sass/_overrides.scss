@@ -1663,6 +1663,11 @@ header.header-main {
   .logo {
     margin-bottom: 1em;
   }
+  .social {
+            img {
+            max-height: 20px;
+            }
+          }
   ul {
     list-style: none;
     margin-left: 1.5em;
@@ -1820,6 +1825,12 @@ header.header-main {
     background-position: center top;
     background-repeat: no-repeat;
     margin-top: 20px;
+    .social {
+            img {
+            max-height: 20px;
+            }
+          }
+          
     .footer-menu{
       padding: 20px 0;
     }
@@ -1907,13 +1918,15 @@ header.header-main {
     .footer-menu{
       padding: 20px 0;
     }
-    ul {
-      margin-left: 0;
-      .social {
+    .social {
             img {
             height: 20px;
+            max-height: 20px;
           }
           }
+    ul {
+      margin-left: 0;
+      
       img {
         height: 30px;
       }
@@ -3742,12 +3755,17 @@ header.header-main {
       }
       background-color: #EDEDED;
       background-image: url("../images/footer-back.png");
-      background-position: center top;
+      background-position: center bottom;
       background-repeat: no-repeat;
       padding: 0;
       border-top: 3px solid $course-section-background-color;
       .logo {
         margin-bottom: 1em;
+      }
+      .social {
+        img {
+          max-height:20px;
+        }
       }
       ul {
         list-style: none;
@@ -3989,12 +4007,13 @@ header.header-main {
         .footer-menu{
           padding: 20px 0;
         }
-        ul {
-          .social {
+        .social {
             img {
-            height: 20px;
+            max-height: 20px;
+            }
           }
-          }
+        ul {
+          
           margin-left: 0;
           img {
             height: 30px;
@@ -4142,6 +4161,11 @@ header.header-main {
         background-image: url("../images/footer-back.png");
         background-position: center top;
         background-repeat: no-repeat;
+        .social {
+            img {
+            max-height: 20px;
+            }
+          }
         .footer-menu{
           padding: 20px 0;
         }
@@ -4161,6 +4185,11 @@ header.header-main {
         background-image: url("../images/footer-back.png");
         background-position: center top;
         background-repeat: no-repeat;
+        .social {
+            img {
+            max-height: 20px;
+            }
+          }
         .footer-menu{
           padding: 20px 0;
         }
@@ -4253,6 +4282,7 @@ header.header-main {
         text-align: left !important;
       }
     }
+    // end of media only screen and (max-width: 414px)
 
     .login-register {
       max-width: 1200px;
@@ -4290,6 +4320,9 @@ header.header-main {
     }
 
   }
+
+
+
   .hero {
     min-height: 150px;
     .tint-dark {
